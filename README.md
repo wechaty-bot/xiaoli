@@ -177,7 +177,7 @@ async function onMessage(msg) {
 
 利用wechaty和小理的日报接口，我们就能把这项任务完全自动化！先看效果图：
 
-![daily-snapshot](/download/2018/xiaoli-2.jpeg)
+![daily-snapshot](https://blog.chatie.io/download/2018/xiaoli-2.jpeg)
 
 小理会针对一些行业自动整理每天的相关新闻，生成一份日报，其中包含了多个主题版面，还能够通过智能分析算法自动生成新闻头条。接下来，我们就给机器人增加这个功能，让它每天定时在群里推送这样一份人工智能日报。
 首先实现```sendDaily```方法：
