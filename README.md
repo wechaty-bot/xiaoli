@@ -32,7 +32,7 @@ node src/xiaoli-news-bot.js
 
 新闻资讯的查询、播报是很多智能对话机器人技能中很重要的一环，一个经典的场景就是用户就自己感兴趣的关键词提问，机器人返回和该关键词相关的最新新闻资讯，如下图：
 
-![news-query-snapshot](/download/2018/xiaoli-1.jpeg)
+![news-query-snapshot](https://blog.chatie.io/download/2018/xiaoli-1.jpeg)
 
 以上场景中我们询问了机器人关于```微信机器人```的最新消息，并且查看了其中一条新闻的详细内容。
 利用wechaty和小理的内容接口，我们可以很方便的实现以上功能。直接上代码：
